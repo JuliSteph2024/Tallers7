@@ -1,0 +1,9 @@
+.gender-button {
+    border: none;
+    background: rgb(56, 56, 56);
+    padding: 5px 22%;
+    cursor: pointer;
+}
+.gender-button.selected {
+    border: 2px solid #007bff;
+}

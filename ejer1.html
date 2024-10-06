@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo Personalizado</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Saludo Personalizado</h2>
+            <form action="php/saludo.php" method="post">
+                <div class="form-group">
+                    <label for="nombre" class="mb-2">Nombre:</label>
+                    <input type="text" class="form-control mb-4" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
